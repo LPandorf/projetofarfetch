@@ -1,7 +1,13 @@
-
+import styled from "styled-components";
+import Home from "./components/Home";
 
 export default function App() {
   return (
-    <>App</>
+    <Wrapper>
+      <Home/>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+`;
